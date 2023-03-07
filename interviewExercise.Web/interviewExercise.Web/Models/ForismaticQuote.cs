@@ -4,7 +4,7 @@
     {
         public string QuoteText { get; set; }
         public string QuoteAuthor { get; set; }
-        public string ImageLink { get; set; }
+        public string ImageBase64String { get; set; }
         public bool Error { get; set; }
     }
 }
