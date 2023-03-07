@@ -102,6 +102,31 @@ namespace interviewExercise.Web.Controllers
 
             return imageUrlBuilder.ToString();
         }
+        private byte[] ConvertImageToGradient(byte[] imageBytes)
+        {
+            using (MemoryStream ms = new MemoryStream(imageBytes))
+            {
+                using (Bitmap bitmap = new Bitmap(ms))
+                {
+                    LinearGradientBrush brush = new LinearGradientBrush(
+                        new Rectangle(0, 0, bitmap.Width, bitmap.Height),
+                        Color.Red,
+                        Color.Yellow,
+                        LinearGradientMode.Vertical);
 
+                    using (Graphics graphics = Graphics.FromImage(bitmap))
+                    {
+                        graphics.DrawImage(bitmap, 0, 0);
+                        graphics.FillRectangle(brush, 0, 0, bitmap.Width, bitmap.Height);
+                    }
+
+                    using (MemoryStream output = new MemoryStream())
+                    {
+                        bitmap.Save(output, System.Drawing.Imaging.ImageFormat.Jpeg);
+                        return output.ToArray();
+                    }
+                }
+            }
+        }
     }
 }
