@@ -1,23 +1,26 @@
-# interview-exercise
-Tucows Interview Exercise
+# Interview Exercise Web
+This application is a .NET Core 6 web application that displays random quotes and images from http://forismatic.com/en/api/ and https://picsum.photos/.
 
-## Instructions
+## Requirements
 
-- Please create a fork of this repo in which you will attempt the exercise.
-- Create a new branch in the fork of this repo to attempt the exercise in, when you are done open a PR from that branch onto the main branch.
-- In a file called setup.md please include instructions on how to run and test you application
-- Please use GO or .NET for your solutions
+To run this application, you will need to have the following installed on your machine:
+- .NET 6 SDK.
+- Visual Studio 2022 (optional)
 
-## Tasks
+## Installation
 
-- Create a small web app that displays an HTML page containing a random quote, and random picture from the two APIs below.
-- Create a back-end CLI tool to do the same
-- How can you return an image on cli?
-- (Optional) Add an option to both the CLI, and web app so a category (“key” in the API) can optionally be specified for the quote.  (sane/working default if not specified)
-- Add an option to both the CLI, and web app to allow specifying a grayscale image
-- (Optional) Make it resilient to one or both providers being unavailable
+Clone the repo with the following command:
+```bash
+   git clone https://github.com/kksnamboothiri/interview-exercise.git
+   ```
+Move to the interviewExercise.Web folder and type dotnet run in a terminal window to launch the application.
+Point your browser to the https://localhost:7180 address. You should see a web page like the following:
+## Usage
+The "Get new quotes" button will reload a new quote and image. The "Settings" button on the top right corner will enable changing the image to grayscale. Clicking the button will create an AJAX request to the controller, and HttpClient is used to get the API results. The images are converted to a base64 string and passed to JavaScript.
 
+## Technologies Used
 
-## APIs to be Used
-- http://forismatic.com/en/api/
-- https://picsum.photos/
+- .NET Core 6.
+- ASP.NET Core MVC
+- Bootstrap
+- jQuery
