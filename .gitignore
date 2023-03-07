@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/interview-exercise/v17
+/.vs/slnx.sqlite
+/interviewExercise.Web/.vs/interviewExercise.Web
+/interviewExercise.Web/interviewExercise.Web/bin/Debug/net6.0
+/interviewExercise.Web/interviewExercise.Web/obj
+/.vs/interview-exercise/project-colors.json
