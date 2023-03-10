@@ -1,23 +1,47 @@
-# interview-exercise
+# interview-exercise c# project
 Tucows Interview Exercise
 
-## Instructions
 
-- Please create a fork of this repo in which you will attempt the exercise.
-- Create a new branch in the fork of this repo to attempt the exercise in, when you are done open a PR from that branch onto the main branch.
-- In a file called setup.md please include instructions on how to run and test you application
-- Please use GO or .NET for your solutions
+## Intro
 
-## Tasks
+- This project is developed using .net 5 on visual studio 2019 editor.
+- The TucowsInterviewExerciseApp solution contains two projects; the console app (TucowsInterviewExerciseApp), and the web app (TucowsInterviewExerciseWebApp).
 
-- Create a small web app that displays an HTML page containing a random quote, and random picture from the two APIs below.
-- Create a back-end CLI tool to do the same
-- How can you return an image on cli?
-- (Optional) Add an option to both the CLI, and web app so a category (“key” in the API) can optionally be specified for the quote.  (sane/working default if not specified)
-- Add an option to both the CLI, and web app to allow specifying a grayscale image
-- (Optional) Make it resilient to one or both providers being unavailable
+## Running and Testing the project (2 Ways)
 
+### 1- Using visual studio
+- Open the TucowsInterviewExerciseApp solution using visual studio 2019 editor after clonning or downloaing it.
 
-## APIs to be Used
-- http://forismatic.com/en/api/
-- https://picsum.photos/
+#### The console app
+- Set The console app (TucowsInterviewExerciseApp) as the startup project (right click the project from the solution explorer then choose Set as Startup Project Option).
+- Run the project by clicking f5 or the green play icon in the tools bar.
+- The command line app will start by showing a random quote and openning a random picture on the photos viewer app (the program will save the picture in the project directory then will open it using the viewer app).
+- For different results enter your choice following the menu directions.
+
+#### The web app
+- Set the web app (TucowsInterviewExerciseWebApp) as the startup project (right click the project from the solution explorer then choose Set as Startup Project Option).
+- Run the project by clicking f5 or the green play icon in the tools bar.
+- The web page will start by showing a random quote and a random picture.
+- For differnt results use the (Get a qoute) button in the bottom. 
+- There are options for grayscale image and specific quote key.
+
+### 2- Without using visual studio
+- Download the project folder.
+- Download and install the Hosting Bundle under ASP.NET Core Runtime 5.0.17 from this link https://dotnet.microsoft.com/en-us/download/dotnet/5.0
+
+#### The console app
+- Open the project folder (TucowsInterviewExerciseApp).
+- Then open TucowsInterviewExerciseApp -> bin -> Release -> net5.0
+- Run the TucowsInterviewExerciseApp.exe
+- The command line app will start by showing a random quote and openning a random picture on the photos viewer app (the program will save the picture in the project directory then will open it using the viewer app).
+- For different results enter your choice following the menu directions.
+
+#### The web app
+- Open the project folder (TucowsInterviewExerciseApp).
+- Then open TucowsInterviewExerciseWebApp -> bin -> Release -> net5.0
+- Run the TucowsInterviewExerciseWebApp.exe it will open a cmd window.
+- Copy the link (beside Now listening on) for example http://localhost:5000 and open it in the browser.
+- The web page will start by showing a random quote and a random picture. (it will be basic page without CSS style)
+- For differnt results use the (Get a qoute) button in the bottom. 
+- There are options for grayscale image and specific quote key.
+

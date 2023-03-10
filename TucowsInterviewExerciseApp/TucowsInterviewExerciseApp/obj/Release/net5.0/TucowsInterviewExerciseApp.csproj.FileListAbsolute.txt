@@ -1,0 +1,15 @@
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.exe
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.deps.json
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.runtimeconfig.json
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.runtimeconfig.dev.json
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.dll
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\ref\TucowsInterviewExerciseApp.dll
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\bin\Release\net5.0\TucowsInterviewExerciseApp.pdb
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.AssemblyInfoInputs.cache
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.AssemblyInfo.cs
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.csproj.CoreCompileInputs.cache
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.dll
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\ref\TucowsInterviewExerciseApp.dll
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.pdb
+C:\Users\Luma\Documents\TucowsInterviewExercise\interview-exercise\TucowsInterviewExerciseApp\TucowsInterviewExerciseApp\obj\Release\net5.0\TucowsInterviewExerciseApp.genruntimeconfig.cache
