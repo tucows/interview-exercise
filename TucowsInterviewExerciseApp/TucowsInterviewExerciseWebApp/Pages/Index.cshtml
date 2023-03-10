@@ -1,0 +1,99 @@
+﻿@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+
+<div>
+    @{
+        var base64 = Convert.ToBase64String(Model.image);
+        var imgSrc = String.Format("data:image/jpg;base64,{0}", base64);
+    }
+
+    @if (imgSrc != null)
+    {
+        <img src="@imgSrc" />
+    }
+
+    @if (Model.responseObj.quoteText != null && Model.errorMsg == "")
+    {
+        <table class="table table-borderless">
+            <tr>
+                <td>
+                    Quote Text:
+                </td>
+                <td>
+                    @Model.responseObj.quoteText
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Quote Author:
+                </td>
+                <td>
+                    @Model.responseObj.quoteAuthor
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Sender Name:
+                </td>
+                <td>
+                    @Model.responseObj.senderName
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Sender Link:
+                </td>
+                <td>
+                    @Model.responseObj.senderLink
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Quote Link:
+                </td>
+                <td>
+                    <a href="@Model.responseObj.quoteLink">@Model.responseObj.quoteLink</a>
+
+                </td>
+            </tr>
+
+        </table>
+    }
+    else if (Model.errorMsg != "")
+    {
+        <p class="form-text alert-danger">Something went wrong.. please try again</p>
+    }
+
+
+
+</div>
+
+<br />
+
+<div>
+    <form method="post" asp-page="Index">
+        <div class="form-group">
+            <label asp-for="key">Quote Key (Optional)</label>
+            <input asp-for="key" name="key" class="form-control" placeholder="123456" autocomplete="off" />
+        </div>
+        <div class="form-group">
+            <input asp-for="grayscaleImage" name="grayscaleImage" type="checkbox" />
+            <label asp-for="grayscaleImage">Grayscale Image </label>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary" asp-page-handler="submit">Get a quote</button>
+    </form>
+</div>

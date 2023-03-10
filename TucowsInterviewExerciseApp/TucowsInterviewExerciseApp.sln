@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TucowsInterviewExerciseApp", "TucowsInterviewExerciseApp\TucowsInterviewExerciseApp.csproj", "{60D8EF9F-0349-4665-AFB2-685BFCAAE5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TucowsInterviewExerciseWebApp", "TucowsInterviewExerciseWebApp\TucowsInterviewExerciseWebApp.csproj", "{A6E9BB9D-B41E-4A87-9745-6C4AB359952C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D8EF9F-0349-4665-AFB2-685BFCAAE5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8EF9F-0349-4665-AFB2-685BFCAAE5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8EF9F-0349-4665-AFB2-685BFCAAE5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8EF9F-0349-4665-AFB2-685BFCAAE5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E9BB9D-B41E-4A87-9745-6C4AB359952C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E9BB9D-B41E-4A87-9745-6C4AB359952C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E9BB9D-B41E-4A87-9745-6C4AB359952C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E9BB9D-B41E-4A87-9745-6C4AB359952C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49E3CF9A-2A07-4A28-B658-8A504950DBC8}
+	EndGlobalSection
+EndGlobal
