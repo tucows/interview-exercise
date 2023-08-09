@@ -17,7 +17,8 @@ Tucows Interview Exercise
 - Add an option to both the CLI, and web app to allow specifying a grayscale image
 - Make it resilient to one or both providers being unavailable
 - Provide unit tests
-- Provide any documentation you think might be useful
+- Provide any documentation you think might be helpful
+- Feel free to add anythng that you think might be useful
 
 
 ## APIs to be Used
