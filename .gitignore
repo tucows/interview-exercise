@@ -1,0 +1,9 @@
+.pytest_cache
+__pycache__
+
+web-env
+test-env
+cli-env
+
+image.jpg
+quote.txt

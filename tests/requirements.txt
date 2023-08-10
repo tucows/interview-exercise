@@ -1,0 +1,3 @@
+pytest
+-r ../web/requirements.txt
+-r ../cli/requirements.txt
