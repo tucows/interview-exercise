@@ -3,8 +3,8 @@ Tucows Interview Exercise
 
 ## Instructions
 
-- Please create a fork of this repo in which you will attempt the exercise.
-- Create a new branch in the fork of this repo to attempt the exercise in, when you are done open a PR from that branch onto the main branch.
+- Please create a repo in which you will attempt the exercise.
+- When you are done share repo link with HR
 - In a file called setup.md please include instructions on how to run and test you application
 - Please use GO or Python for your solutions
 
