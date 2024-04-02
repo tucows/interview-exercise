@@ -6,7 +6,7 @@ Tucows Interview Exercise
 - Please create a repo in which you will attempt the exercise.
 - When you are done share repo link with HR
 - In a file called setup.md please include instructions on how to run and test you application
-- Please use GO or Python for your solutions
+- Please use GO (preferable) or Python for your solutions
 
 ## Tasks
 
